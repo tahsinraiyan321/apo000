@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>অপরূপা 2.0 - AI Legal & Governance Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.maateen.me/nikosh/font.css" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              bengali: ['Nikosh', 'sans-serif'],
+            },
+            colors: {
+              'brand-green': '#14B8A6', // Teal 500
+              'brand-red': '#FB7185', // Rose 400
+              'brand-light': '#F8FAFC', // Slate 50
+              'brand-dark': '#0F172A', // Slate 900
+              'brand-accent': '#5EEAD4', // Teal 300
+              'brand-secondary-text': '#64748B', // Slate 500
+              'brand-border': '#E2E8F0', // Slate 200
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "firebase-admin/": "https://aistudiocdn.com/firebase-admin@^13.6.0/",
+    "twilio": "https://aistudiocdn.com/twilio@^5.10.5"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

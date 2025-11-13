@@ -1,0 +1,7 @@
+{
+  "name": "অপরূপা - AI Legal & Governance Agent",
+  "description": "AI agent to enhance legal literacy and simplify access to Bangladeshi government services, with the explicit goal of preventing corruption by strengthening transparency in local governance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
